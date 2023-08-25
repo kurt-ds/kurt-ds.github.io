@@ -210,15 +210,15 @@ section {
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
-  width: 40.75rem;
+  width: 45rem;
   flex-flow: row wrap;
   margin: auto;
 }
 
 .skill-container {
   flex-grow: 1;
-  width: 12.75rem;
-  height: 12.75rem;
+  width: 14rem;
+  height: 14rem;
   border-radius: 1.875rem;
   background: #7f2ccb;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
@@ -321,7 +321,7 @@ section {
     content: "";
     position: absolute;
     height: 3px;
-    background-color: #ff3c78;
+    background-color: #B48291;
     left: 0;
     width: 0;
     bottom: -10px;
@@ -359,7 +359,21 @@ section {
   }
 
   .about-image {
-    max-width: 25rem;
+    max-width: auto;
+    flex: 1;
+  }
+  .about-content {
+    flex: 1;
+  }
+
+  .skills-container {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .skill-container {
+    width: 12rem;
+    height: 12rem;
   }
 
   .skill-container svg {
