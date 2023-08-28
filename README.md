@@ -1,6 +1,6 @@
 # Portfolio Website
 
-![Portfolio Screenshot](./assets/Screenshot%202023-08-23%20190921%201.svg)
+![Portfolio Screenshot](./assets/Landing%20Page.svg)
 
 Welcome to my portfolio website! This website showcases my projects, skills, and experience as a developer and designer. It was built using HTML, CSS, JavaScript, Express for the backend, and features on-scroll animations powered by AOS (Animate on Scroll).
 
