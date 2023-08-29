@@ -2,7 +2,7 @@
 
 ![Portfolio Screenshot](./assets/Landing%20Page.svg)
 
-Welcome to my portfolio website! This website showcases my projects, skills, and experience as a developer and designer. It was built using HTML, CSS, JavaScript, Express for the backend, and features on-scroll animations powered by AOS (Animate on Scroll).
+Welcome to my portfolio website! This website showcases my projects, skills, and experience as a developer and designer. It was built using HTML, CSS, JavaScript, and features on-scroll animations powered by AOS (Animate on Scroll).
 
 ## Table of Contents
 - [Demo](#demo)
