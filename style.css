@@ -3,6 +3,7 @@ html {
     padding: 0;
     width: 100vw;
     overflow-x: hidden;
+    font-size: 16px;
 }
 
 body {
@@ -90,7 +91,7 @@ section {
 
 .logo-image {
   flex: 2;
-  max-width: 15rem;
+  max-width: 30rem;
 }
 
 .fullname {
