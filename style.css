@@ -84,9 +84,13 @@ section {
   gap: 3rem;
 }
 
+#name {
+  display: inline;
+  font-weight: 600;
+}
 .profile {
   flex: 3;
-  max-width: 40rem;
+  min-width: 40rem;
 }
 
 .logo-image {
@@ -208,7 +212,7 @@ section {
   flex: 2;
   color: #000;
   font-family: Lato;
-  font-size: 1.5625rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -422,6 +426,8 @@ section {
     height: 6rem;
     align-items: center;
   }
+
+  
   .nav-content {
     width: 90vw;
   }
@@ -438,13 +444,22 @@ section {
     width: 90vw;
   }
 
+  .profile {
+    max-width: 45rem;
+  }
+
+  .logo-image {
+    max-width: 30rem;
+  }
+
 
   .about-text {
+    font-size: 2rem;
     flex: 1;
   }
 
   .about-image {
-    max-width: 40rem;
+    max-width: 30rem;
     flex: 1;
   }
 
@@ -496,6 +511,10 @@ section {
         align-items: center;
         width: 100vw;
     }
+
+    .logo-image {
+      max-width: 30rem;
+    }
     
     .nav-content {
         width: 90vw;
@@ -505,8 +524,20 @@ section {
         flex-direction: column-reverse;
     }
 
+    #about {
+      margin-bottom: 3rem;
+    }
+
     .about-content {
         flex-direction: column;
+    }
+
+    .about-image {
+      max-width: 40rem;
+    }
+
+    .about-text {
+      font-size: 2rem;
     }
     .skills-container {
       gap: 1.5rem;
@@ -527,7 +558,7 @@ section {
     }
 
     .skill-container svg {
-        width: 9rem;
+        width: 8rem;
     }
 
     section {
