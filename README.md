@@ -38,8 +38,5 @@ You can access the live demo of my portfolio website at [https://kurt-ds.github.
   - CSS
   - JavaScript
 
-- Backend:
-  - Express.js
-
 - Libraries:
   - AOS (Animate on Scroll) for animations
