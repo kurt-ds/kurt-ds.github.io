@@ -32,8 +32,21 @@
             <a href="#projects" class="anchor">projects</a>
           </li>
         </ul>
+
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
       </div>
     </nav>
+
+    <nav class="mobile-nav">
+      <a href="#home" class="anchor">home</a>
+      <a href="#about" class="anchor">about</a>
+      <a href="#skills" class="anchor">skills</a>
+      <a href="#projects" class="anchor">projects</a>
+    </nav>
+
+
     <section class="home" id="home">
       <header class="profile" data-aos="fade-right" data-aos-duration="1000">
         <p>Hi. I am</p>
@@ -389,48 +402,5 @@
     </footer>
   </body>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script>
-    const elements = document.querySelectorAll(".stack");
-
-    // Loop through the elements and set their border-radius
-    elements.forEach((element) => {
-      // Calculate the width dynamically for each element
-      const width = element.clientWidth;
-
-      // Set the border-radius to be 50% of the calculated width
-      element.style.borderRadius = `${width / 2}px`;
-    });
-
-    const elements2 = document.querySelectorAll(".about-text a");
-
-    // Loop through the elements and set their border-radius
-    elements2.forEach((element) => {
-      // Calculate the width dynamically for each element
-      const width = element.clientWidth;
-
-      // Set the border-radius to be 50% of the calculated width
-      element.style.borderRadius = `${width / 2}px`;
-    });
-
-    document.addEventListener("DOMContentLoaded", function () {
-      const navbarLinks = document.querySelectorAll(".navbar a");
-
-      navbarLinks.forEach((link) => {
-        link.addEventListener("click", function (e) {
-          e.preventDefault();
-          const targetId = this.getAttribute("href").substring(1); // Remove the '#' character
-          const targetElement = document.getElementById(targetId);
-          const offset = 70; // Adjust this value as needed
-
-          window.scrollTo({
-            top: targetElement.offsetTop - offset,
-            behavior: "smooth",
-          });
-        });
-      });
-    });
-  </script>
+  <script src="main.js"></script>
 </html>
