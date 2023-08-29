@@ -9,6 +9,7 @@ html {
 body {
   padding-top: 4.375rem;
   background-color: #fffbfc;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -90,7 +91,7 @@ section {
 }
 .profile {
   flex: 3;
-  min-width: 40rem;
+  min-width: 35rem;
 }
 
 .logo-image {
@@ -490,7 +491,7 @@ section {
 }
 
 
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 430px) and (max-width: 768px) {
   .nav-title {
     font-size: 3rem;
   }
@@ -564,6 +565,105 @@ section {
 
     section {
         width: 90vw;
+    }
+
+    .card {
+        flex-direction: column-reverse;
+    }
+
+    .card:last-child {
+        flex-direction: column-reverse;
+    }
+
+    .card-description p {
+      font-size: 1.5rem;
+    }
+
+
+    .footer {
+        height: 16rem;
+    }
+    .footer-content {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 0) and (max-width: 430px) {
+  .nav-title {
+    font-size: 3rem;
+  }
+
+  .home {
+    gap: 2rem;
+  }
+
+  .nav-item {
+    font-size: 2rem;
+  }
+
+    html {
+        font-size: 10px;
+    }
+
+    .navbar {
+        height: 6rem;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .logo-image {
+      max-width: 30rem;
+    }
+    
+    .nav-content {
+        width: 90vw;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+    }
+
+    #about {
+      margin-bottom: 3rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-image {
+      max-width: 40rem;
+    }
+
+    .about-text {
+      font-size: 2rem;
+    }
+    .skills-container {
+      gap: 1.5rem;
+      width: 33rem;
+      height: auto;
+      margin: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    #skills {
+      min-height: 80vh;
+    }
+  
+    .skill-container {
+      width: 15rem;
+      height: 15rem;
+    }
+
+    .skill-container svg {
+        width: 8rem;
+    }
+
+    section {
+        width: 100vw;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .card {
