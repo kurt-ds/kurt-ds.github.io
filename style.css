@@ -2,6 +2,7 @@ html {
     margin: 0;
     padding: 0;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 .nav-title {
   color: #fff;
   font-family: Roboto Slab;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -44,6 +45,7 @@ body {
   align-items: flex-start;
   gap: 1.25rem;
 }
+
 
 
 .darkmode-btn {
@@ -66,6 +68,10 @@ section {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
+}
+
+#about {
+  min-height: 80vh;
 }
 
 .home {
@@ -200,11 +206,37 @@ section {
 .about-text {
   flex: 2;
   color: #000;
-  font-family: Roboto Slab;
+  font-family: Lato;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-text a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  align-self: center;
+  background-color: #7f2ccb;
+  font-weight: 700;
+  color: white;
+  padding: 1rem;
+  transition: ease-in-out 0.3s;
+}
+
+.about-text a:hover {
+  opacity: 0.9;
+}
+
+
+.about-text svg {
+  width: 2rem;
+  height: 2rem;
 }
 
 #skills {
@@ -225,7 +257,6 @@ section {
 }
 
 .skill-container {
-  flex-grow: 1;
   width: 14rem;
   height: 14rem;
   border-radius: 1.875rem;
@@ -239,7 +270,7 @@ section {
 }
 
 .skill-container p {
-  color: #000;
+  color: #fff;
   font-family: Roboto Slab;
   font-size: 1.25rem;
   font-style: normal;
@@ -296,7 +327,7 @@ section {
 }
 .card-description p {
   color: #000;
-  font-family: Roboto Slab;
+  font-family: Lato;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -312,6 +343,12 @@ section {
   line-height: normal;
   background-color: #7f2ccb;
   padding: 0.5rem 1rem;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.stack:hover {
+  opacity: 0.9;
 }
 
 #projects {
@@ -387,6 +424,13 @@ section {
     width: 90vw;
   }
 
+  .nav-title {
+    font-size: 3rem;
+  }
+
+  .nav-item {
+    font-size: 2rem;
+  }
   .logo-image {
     max-width: 25rem;
   }
@@ -401,6 +445,7 @@ section {
   }
 
   .about-image {
+    max-width: 40rem;
     flex: 1;
   }
 
@@ -431,6 +476,14 @@ section {
 
 
 @media (min-width: 0) and (max-width: 768px) {
+  .nav-title {
+    font-size: 3rem;
+  }
+
+  .nav-item {
+    font-size: 2rem;
+  }
+
     html {
         font-size: 10px;
     }
@@ -451,6 +504,19 @@ section {
 
     .about-content {
         flex-direction: column;
+    }
+
+    .skills-container {
+      width: 40rem;
+      height: auto;
+      margin: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  
+    .skill-container {
+      max-width: 19rem;
+      max-height: 19rem;
     }
 
     .skill-container svg {
