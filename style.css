@@ -319,7 +319,7 @@ section {
 .card-description h6 {
   color: #000;
   font-family: Roboto Slab;
-  font-size: 1.5625rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -477,6 +477,7 @@ section {
     width: 12rem;
   }
 
+
   .footer {
     height: 15rem;
   }
@@ -572,6 +573,11 @@ section {
     .card:last-child {
         flex-direction: column-reverse;
     }
+
+    .card-description p {
+      font-size: 1.5rem;
+    }
+
 
     .footer {
         height: 16rem;
