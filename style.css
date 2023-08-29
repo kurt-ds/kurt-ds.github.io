@@ -71,7 +71,7 @@ section {
 }
 
 #about {
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 .home {
@@ -80,7 +80,7 @@ section {
   padding-left: auto;
   padding-right: auto;
   justify-content: space-evenly !important;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 .profile {
@@ -90,7 +90,7 @@ section {
 
 .logo-image {
   flex: 2;
-  max-width: 30rem;
+  max-width: 20rem;
 }
 
 .fullname {
@@ -251,14 +251,15 @@ section {
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
-  width: 45rem;
+  width: 39rem;
   flex-flow: row wrap;
-  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .skill-container {
-  width: 14rem;
-  height: 14rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 1.875rem;
   background: #7f2ccb;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
@@ -296,7 +297,7 @@ section {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
   padding: 1rem;
-  min-height: 35rem;
+  min-height: 30rem;
 }
 
 .card:last-child {
@@ -425,14 +426,11 @@ section {
   }
 
   .nav-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .nav-item {
     font-size: 2rem;
-  }
-  .logo-image {
-    max-width: 25rem;
   }
 
   section {
@@ -480,6 +478,10 @@ section {
     font-size: 3rem;
   }
 
+  .home {
+    gap: 2rem;
+  }
+
   .nav-item {
     font-size: 2rem;
   }
@@ -505,18 +507,22 @@ section {
     .about-content {
         flex-direction: column;
     }
-
     .skills-container {
-      width: 40rem;
+      gap: 1.5rem;
+      width: 43rem;
       height: auto;
       margin: 0;
       margin-top: auto;
       margin-bottom: auto;
     }
+
+    #skills {
+      min-height: 80vh;
+    }
   
     .skill-container {
-      max-width: 19rem;
-      max-height: 19rem;
+      width: 13rem;
+      height: 13rem;
     }
 
     .skill-container svg {
