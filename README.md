@@ -15,7 +15,7 @@ Welcome to my portfolio website! This website showcases my projects, skills, and
 
 ## Demo
 
-You can access the live demo of my portfolio website at [www.yourwebsite.com](https://www.yourwebsite.com).
+You can access the live demo of my portfolio website at [https://kurt-ds.github.io/](https://kurt-ds.github.io/).
 
 ## Features
 
